@@ -1,0 +1,94 @@
+/* GENERAL */
+
+body {
+  background-color: #efefef;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.baseline {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  height: 40px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #393c6c;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  height: 22px;
+}
+
+.section {
+  background-color: #fff;
+  margin-bottom: ;
+}
+
+/* HEADER */
+header {
+  background-color: #fff;
+  height: 35px;
+}
+
+header img {
+  height: 13px;
+  margin-top: 10px;
+}
+
+/* Div enfant direct de header */
+header > div {
+  /* Pour visualiser mon élément */
+  height: 100%;
+  /* border: black solid 1px; */
+  /* Pour inclure le padding et la bordure à l'intérieur de la boite */
+  /* box-sizing: border-box; */
+}
+
+/* CREPES */
+
+#crepes img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+/* PREPARATION */
+
+.etape {
+  height: 50px;
+}
+
+/* TEMPS ECOULE */
+
+.temps {
+  width: 300px;
+  height: 50px;
+  border: black solid 1px;
+  margin: 0 auto;
+  background-color: #61605b;
+  color: #f5f5f9;
+  border-radius: 10px;
+}
